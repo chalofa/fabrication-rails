@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Fabrication gem meets Rails generators}
   gem.summary       = %q{Fabrication-rails provides integration between Fabrication and Rails,
                          configuring it to generate fixtures by default}
-  gem.homepage      = 'https://github/chalofa/fabrication-rails'
+  gem.homepage      = 'https://github.com/chalofa/fabrication-rails'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
