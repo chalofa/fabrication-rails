@@ -1,6 +1,6 @@
 # Fabrication-Rails
 
-An easy way to integrate Fabrication to Rails, and generate fixtures with it.
+An easy way to integrate Fabrication with Rails, and generate fixtures with it.
 
 
 ## Installation
