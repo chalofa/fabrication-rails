@@ -15,4 +15,7 @@ Gem::Specification.new do |gem|
   gem.name          = "fabrication-rails"
   gem.require_paths = %w(lib)
   gem.version       = Fabrication::Rails::VERSION
+
+  gem.add_runtime_dependency 'fabrication'
+  gem.add_runtime_dependency 'railties', '>= 3.0'
 end
