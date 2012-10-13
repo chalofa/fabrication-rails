@@ -1,6 +1,7 @@
-# Fabrication::Rails
+# Fabrication-Rails
 
-TODO: Write a gem description
+An easy way to integrate Fabrication to Rails, and generate fixtures with it.
+
 
 ## Installation
 
@@ -12,13 +13,23 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
 
-    $ gem install fabrication-rails
+**NOTE**: you don't need to also include `fabrication` gem in your Gemfile (because it's a dependency).
 
 ## Usage
 
-TODO: Write usage instructions here
+When you create a model, a fixture will be created using Fabricate:
+
+    rails g model Foo name:string
+
+Will create (if using RSpec):
+
+    # spec/fabricators/foo_fabricator.rb
+
+    Fabricator(:foo) do
+      name "MyString"
+    end
+
 
 ## Contributing
 
